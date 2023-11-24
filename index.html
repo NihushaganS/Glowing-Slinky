@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Infinite Glowing Slinkys</title>
+  <style>
+    body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      background-color: #121212;
+      margin: 0;
+    }
+
+    .slinky {
+      width: 300px;
+      height: 30px;
+      background-color: #3498db;
+      border-radius: 15px;
+      box-shadow: 0 0 20px #3498db;
+      animation: glow 1s ease-in-out infinite alternate, move 2s linear infinite;
+      margin: 10px;
+    }
+
+    @keyframes glow {
+      0% {
+        box-shadow: 0 0 20px #d14306;
+      }
+
+      100% {
+        box-shadow: 0 0 40px #34db5e, 0 0 60px #3498db, 0 0 80px #db34a9;
+      }
+    }
+
+    @keyframes move {
+      0% {
+        transform: translateY(0);
+      }
+
+      50% {
+        transform: translateY(-20px);
+      }
+
+      100% {
+        transform: translateY(0);
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <div class="slinky"></div>
+  <div class="slinky"></div>
+  <div class="slinky"></div>
+  <div class="slinky"></div>
+  <div class="slinky"></div>
+  <div class="slinky"></div>
+  <div class="slinky"></div>
+
+  <div class="slinky"></div>
+  <div class="slinky"></div>
+  <div class="slinky"></div>
+  <div class="slinky"></div>
+  <div class="slinky"></div>
+  <div class="slinky"></div>
+  <div class="slinky"></div>
+  <div class="slinky"></div>
+  <div class="slinky"></div>
+  <div class="slinky"></div>
+  <div class="slinky"></div>
+
+  <div class="slinky"></div>
+  <div class="slinky"></div>
+  <div class="slinky"></div>
+  <div class="slinky"></div>
+  <div class="slinky"></div>
+  <div class="slinky"></div>
+  <div class="slinky"></div>
+  <div class="slinky"></div>
+  <div class="slinky"></div>
+
+  <div class="slinky"></div>
+  <div class="slinky"></div>
+  <div class="slinky"></div>
+  <div class="slinky"></div>
+  <div class="slinky"></div>
+  <div class="slinky"></div>
+  <div class="slinky"></div>
+  <div class="slinky"></div>
+  <div class="slinky"></div>
+</body>
+
+</html>
